@@ -1,3 +1,10 @@
+.title {
+  background-color: coral;
+  color: while;
+  padding: 5px 10px;
+  text-align: center;
+}
+
 .content {
   display: flex;
   gap: 50px;
@@ -6,5 +13,6 @@
 @media screen and (max-width: 1024px) {
   .content {
     flex-direction: column;
+    gap: 30px;
   }
 }
